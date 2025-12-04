@@ -1,9 +1,9 @@
-// comment test
-
-/* comment
- * test
+/*
+ *
+ * This file is for the section "Functions"
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+ * 
  */
-
 
 /*
  * basic function definition
