@@ -17,7 +17,14 @@ let logicalOperand3 = 0;
 logicalOperand1 &&= logicalOperand2;
 console.log(logicalOperand1);
 
-// These are called "Short-cuicuit evaluation""
+console.log(!true);  // false
+console.log(!"Cat"); // false
+console.log(!"");    // true
+
+
+/*
+ * Short-cuicuit evaluation
+ */
 console.log(logicalOperand1 && logicalOperand2); // if the left operand is truthy, right operand is logged.
 console.log(logicalOperand3 && logicalOperand2); // if the left operand is falsy, left operand is logged.
 
@@ -28,10 +35,6 @@ console.log(logicalOperand1 ?? logicalOperand2); // if the left operand is neith
 console.log(logicalOperand3 ?? logicalOperand2);
 console.log(undefined ?? logicalOperand2);       // if the left operand is undefined or null, right operand is logged.
 console.log(null ?? logicalOperand2);
-
-console.log(!true);  // false
-console.log(!"Cat"); // false
-console.log(!"");    // true
 
 
 /*
